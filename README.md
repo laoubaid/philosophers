@@ -1,7 +1,7 @@
 # 🍝 Dining Philosophers
   The Dining Philosophers Problem is a classic concurrency problem that involves philosophers sitting around a table with a bowl of spaghetti and one fork between each pair. Each philosopher alternates between thinking, eating, and sleeping. To eat, they need both the left and right forks. After eating, they release the forks, sleep, then think again. Philosophers don’t communicate and can't predict if others are starving. The goal is to ensure no philosopher starves, despite these constraints.
 
-![philos](./.philo.png)
+![philos](./dp_threads/.philos.png)
 
 ## 🧠 Summary
 
