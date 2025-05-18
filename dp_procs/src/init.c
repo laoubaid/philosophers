@@ -6,11 +6,11 @@
 /*   By: laoubaid <laoubaid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/10 11:39:59 by laoubaid          #+#    #+#             */
-/*   Updated: 2024/05/11 17:31:29 by laoubaid         ###   ########.fr       */
+/*   Updated: 2025/05/18 11:40:27 by laoubaid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo_bonus.h"
+#include "philo.h"
 
 t_philo	*allocate_philo(int id, t_control *ctl)
 {
@@ -54,9 +54,6 @@ void	philosophers_init(t_philo **head, t_control *ctl)
 
 t_control	*controls_init(int ac, char **av, t_control *control)
 {
-	int			i;
-
-	i = 0;
 	control = malloc(sizeof(t_control));
 	if (!control)
 		return (NULL);

@@ -6,11 +6,11 @@
 /*   By: laoubaid <laoubaid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/10 18:03:48 by laoubaid          #+#    #+#             */
-/*   Updated: 2024/05/11 19:26:50 by laoubaid         ###   ########.fr       */
+/*   Updated: 2025/05/18 11:40:58 by laoubaid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo_bonus.h"
+#include "philo.h"
 
 long long	ft_time(long long curr_time, long long last_meal)
 {

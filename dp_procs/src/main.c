@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main_bonus.c                                       :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: laoubaid <laoubaid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/10 11:39:59 by laoubaid          #+#    #+#             */
-/*   Updated: 2024/05/11 17:31:29 by laoubaid         ###   ########.fr       */
+/*   Updated: 2025/05/18 11:40:32 by laoubaid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo_bonus.h"
+#include "philo.h"
 
 void	semaphores_open(t_control *ctl)
 {
@@ -55,9 +55,6 @@ void	kill_cleaning(t_philo *philo, t_control *ctl, pid_t *pids)
 
 void	general_monitoring(t_control *ctl)
 {
-	int	i;
-
-	i = 0;
 	while (1)
 	{
 		if (ctl->death->__align == 0)

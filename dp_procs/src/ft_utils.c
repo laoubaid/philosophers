@@ -6,11 +6,11 @@
 /*   By: laoubaid <laoubaid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/10 18:03:21 by laoubaid          #+#    #+#             */
-/*   Updated: 2024/05/10 18:12:09 by laoubaid         ###   ########.fr       */
+/*   Updated: 2025/05/18 11:40:24 by laoubaid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo_bonus.h"
+#include "philo.h"
 
 void	clean_exit(t_control *ctl)
 {
